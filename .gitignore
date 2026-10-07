@@ -1,0 +1,27 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Backend build
+backend/target/
+target/
+node_modules/
+
+# Logs and environment files
+*.log
+.env
+.env.*
+
+# Password/config files
+backend/src/main/resources/application.properties
+saferoute/src/main/resources/application.properties
+src/main/resources/application.properties
+
+# Ignore old duplicate root project
+/saferoute/
+/src/
+/.mvn/
+/HELP.md
+/mvnw
+/mvnw.cmd
+/pom.xml
