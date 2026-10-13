@@ -12,13 +12,13 @@ function Register() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/users/register",
-        {
-          name: name,
-          email: email,
-          password: password
-        }
-      )
+  `${import.meta.env.VITE_API_URL}/api/users/register`,
+  {
+    name: name,
+    email: email,
+    password: password
+  }
+);
 
       alert("Registration successful!")
 
