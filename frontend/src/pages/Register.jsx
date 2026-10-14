@@ -19,7 +19,6 @@ function Register() {
     password: password
   }
 );
-
       alert("Registration successful!")
 
       console.log(response.data)
