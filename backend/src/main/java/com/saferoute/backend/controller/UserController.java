@@ -1,6 +1,6 @@
 package com.saferoute.backend.controller;
 
-import com.saferoute.backend.model.User;
+import com.saferoute.backend.entity.User;
 import com.saferoute.backend.repository.UserRepository;
 import com.saferoute.backend.service.JwtService;
 
