@@ -1,8 +1,8 @@
-package com.saferoute.backend.controller;
+import com.saferoute.backend.service.JwtService;
 
 import com.saferoute.backend.entity.User;
 import com.saferoute.backend.repository.UserRepository;
-import com.saferoute.backend.security.JwtService;
+import com.saferoute.backend.service.JwtService;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;

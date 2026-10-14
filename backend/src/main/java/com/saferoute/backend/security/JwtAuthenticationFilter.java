@@ -1,4 +1,4 @@
-package com.saferoute.backend.security;
+import com.saferoute.backend.service.JwtService;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
